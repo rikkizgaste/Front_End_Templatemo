@@ -1,0 +1,92 @@
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+#burger {
+  display: none;
+}
+
+.navbar {
+  height: 110px;
+  padding-left: 30px;
+  background-color: powderblue;
+}
+
+.logo-container {
+  line-height: 110px;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: black;
+}
+
+.logo-container .fab {
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.links-container {
+  width: 800px;
+}
+
+.link-container {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  width: 100%;
+  line-height: 110px;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: black;
+}
+
+.link1:hover {
+  background-color: skyblue;
+  color: white;
+  transition: 0.3s;
+}
+
+.link2:hover {
+  background-color: tomato;
+  color: white;
+  transition: 0.3s;
+}
+
+.link3:hover {
+  background-color: darkorange;
+  color: white;
+  transition: 0.3s;
+}
+
+.link4:hover {
+  background-color: olivedrab;
+  color: white;
+  transition: 0.3s;
+}
+
+.link5:hover {
+  background-color: steelblue;
+  color: white;
+  transition: 0.3s;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
+.wd-20pr {
+  width: 20%;
+}
+
+.txt-dc-none {
+  text-decoration: none;
+}

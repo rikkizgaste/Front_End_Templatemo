@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: black;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -1,0 +1,40 @@
+footer {
+  width: 100%;
+  padding-top: 30px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+.social-icons-container {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  width: 46px;
+  height: 46px;
+  margin-right: 10px;
+}
+
+.social-link .fab {
+  line-height: 46px;
+}
+
+.social-link:last-child {
+  margin-right: 0;
+}
+
+.social-link:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-out;
+}
+
+.copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 30px;
+}

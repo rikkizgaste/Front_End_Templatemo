@@ -1,0 +1,61 @@
+@media screen and (max-width: 1175px) {
+  .logo-container {
+    font-size: 1.4rem;
+    line-height: 80px;
+  }
+
+  .link {
+    font-size: 1em;
+    line-height: 80px;
+  }
+
+  .navbar {
+    height: 80px;
+    padding-left: 25px;
+  }
+
+  .links-container {
+    width: 650px;
+  }
+
+  footer {
+    padding-top: 50px;
+  }
+
+/* TABLET MODE */
+
+@media screen and (max-width: 1000px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: var(--rowHeight2);
+  }
+
+  .logo-container {
+    line-height: 50px;
+  }
+
+  .link {
+    line-height: 50px;
+  }
+
+  .navbar {
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  .links-container {
+    display: none;
+  }
+
+  #burger {
+    display: block;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: var(--rowHeight3);
+  }
+}
